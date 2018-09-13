@@ -7,7 +7,6 @@ import json
 
 
 def main():
-    config_file_path = "{}/config.toml".format(os.getcwd())
     cache_file_path = "{}/cache.json".format(os.getcwd())
     #TODO: add try/catch block for redundancy
     config_dict = toml.load(config_file_path)
