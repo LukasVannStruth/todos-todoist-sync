@@ -1,14 +1,16 @@
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://github.com/LukasVannStruth/todoist-todo-sync"
 verify_ssl = true
-name = "pypi"
+name = "todoist-todo-sync"
 
 [packages]
-pylint = "*"
 todoist-python = "*"
 requests = "*"
+toml = "*"
 
 [dev-packages]
+rope = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.7"

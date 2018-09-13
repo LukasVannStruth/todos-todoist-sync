@@ -113,3 +113,4 @@ dmypy.json
 # project-specific
 api.settings
 .vscode
+cache.json
