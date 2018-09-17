@@ -1,12 +1,11 @@
 [[source]]
-url = "https://github.com/LukasVannStruth/todoist-todo-sync"
+url = "https://pypi.python.org/simple"
 verify_ssl = true
-name = "todoist-todo-sync"
+name = "pypi"
 
 [packages]
-todoist-python = "*"
-requests = "*"
 toml = "*"
+requests = "*"
 
 [dev-packages]
 rope = "*"

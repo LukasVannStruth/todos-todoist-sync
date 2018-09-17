@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e6f061cf8a945cb63827b274c0a40f0f80c1f7a7a84374a8f8ae85913555c92b"
+            "sha256": "b71f859429a6f4032d9a822e85e4c934d432c1d78789406bbc15e364bba28f7a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -10,7 +10,7 @@
         "sources": [
             {
                 "name": "pypi",
-                "url": "https://pypi.org/simple",
+                "url": "https://pypi.python.org/simple",
                 "verify_ssl": true
             }
         ]
@@ -44,13 +44,6 @@
             ],
             "index": "pypi",
             "version": "==2.19.1"
-        },
-        "todoist-python": {
-            "hashes": [
-                "sha256:b362ec7296886f6fdb1e4fb367ee33dfb5903f1fbe0f7626543f58294b6df7d0"
-            ],
-            "index": "pypi",
-            "version": "==7.0.18"
         },
         "toml": {
             "hashes": [
