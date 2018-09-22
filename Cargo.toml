@@ -1,0 +1,10 @@
+[package]
+name = "todos-todoist-sync"
+version = "0.1.0"
+authors = ["Lukas Vann Struth <lvannstruth@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+nom = "^4.0"
+config = "0.9"
+hyper = "0.12"

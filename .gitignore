@@ -114,3 +114,7 @@ dmypy.json
 api.settings
 .vscode
 cache.json
+
+/target
+**/*.rs.bk
+config.toml
