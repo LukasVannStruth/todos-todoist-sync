@@ -5,3 +5,5 @@ import toml
 import os
 #TODO: insert paths
 
+class config(object):
+    pass

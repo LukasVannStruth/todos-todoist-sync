@@ -30,31 +30,30 @@ def main():
         print("File created")
     
     keywords = (config_dict["project"]["keywords"])
-    filenames = (config_dict["project"]["filetypes"])
+    filetypes = (config_dict["project"]["filetypes"])
     project_directory = "{}/{}".format(os.getcwd() ,config_dict["project"]["src_folder"])
-    
+    files = []
     
     # NOTE: https://stackoverflow.com/questions/10377998/how-can-i-iterate-over-files-in-a-given-directory
-    for subdir, dirs, files in os.walk(project_directory):
-        for file in files: 
-            filepath = subdir + os.sep + file
+    # for subdir, dirs, files in os.walk(project_directory):
+        # for file in files: 
+            # filepath = subdir + os.sep + file
+            
+            # if filepath.endswith(tuple(filetypes)):
+                # # TODO: scan files for what is going on.
+                # files.append(filepath)
+                
+        # print(files)
 
-            if filepath.endswith(tuple(filenames)):
-                print(filepath)
-                # TODO: scan files for what is going on.
+    # for file in files:
+        # print(file)
+        # f = open(file, "r")
+        # for line in f:
+            # if any(keyword in line for keyword in keywords):
+                # print("yay")
     
     
     
       
 
 main()
-
-"""
-    #TODO: Refactor this stuff into the api package
-    all_projects = requests.get("https://beta.todoist.com/API/v8/projects", headers={"Authorization": "Bearer %s" % config_dict["api"]["key"]}).json()
-    cache_file = open(cache_file_path, 'r+')
-    #TODO: in api crate implement equality check
-    json.dump(all_projects, cache_file, sort_keys=True, indent=4)
-    print(json.dumps(all_projects, sort_keys=True, indent=4))
-    #print(config_dict["api"]["key"])
-    """
